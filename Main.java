@@ -5,4 +5,7 @@ public class Main {
         // Spelet börjar här!
 
     }
+
+    System.out.println("Hello, World!");
+//Test
 }
