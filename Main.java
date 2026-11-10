@@ -6,6 +6,6 @@ public class Main {
 
     }
 
-    System.out.println("Hello, World!");
-//Test
+    System.out.println("Hello, 00!");
+//Test 99
 }
