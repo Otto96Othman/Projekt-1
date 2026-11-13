@@ -15,7 +15,7 @@ public class DiceGame {
         Player player = new Player(name);
 
         System.out.print("Hur många rundor vill du spela? ");
-        // kolla om det är en int, om inte låt anvä rde skriva in igen
+        // kolla om det är en int, om inte låt användare skriva in igen
         // så länge som det inte är en int, skriv ut ogiltligtNummer och ta bort ogiltlig inmatning
         while (!scanner.hasNextInt()) {
             System.out.print(ogiltligtNummer);

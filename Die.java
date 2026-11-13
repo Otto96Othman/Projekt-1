@@ -4,12 +4,12 @@ import java.util.Random;
 public class Die {
 
     private int value;
-    private int numberOfSides;
-    private Random random;
+    private final int numberOfSides;
+    private final Random randomGenerator;
 
     public Die(int numberOfSides) {
         this.numberOfSides = numberOfSides;
-        this.random = new Random();
+        this.randomGenerator = new Random();
         this.value = 1;
     }
 
@@ -22,6 +22,6 @@ public class Die {
     }
 
     public void roll() {
-        value = random.nextInt(numberOfSides) + 1;
+        value = randomGenerator.nextInt(numberOfSides) + 1;
     }
 }
